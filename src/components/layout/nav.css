@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+.nav {
+    background-color: #ffffff;
+    color: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    width:1440px;
+    height: 80px;
+    padding: 15px 120px 16px 122px;
+    display: flex;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20 rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav li:active {
+   color: #284ab3;
+   border-bottom: 2px solid #284AB3;
+   opacity : 1;
+    
+}
+
+
+
+.rbc-logo {
+   
+    background: #fff;
+    width: 157px;
+    height: 49px;
+}
+
+.buttons{
+    gap:24px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    width: 104px;
+    outline: 0;
+    border-radius: 6px;
+    color: #fcfcfc;
+    background: var(--blue-blue-shade-1, #284ab3);
+    border:var(--blue-blue-shade-1, #284ab3);
+
+}
+
+.give {
+    display: flex;
+    width: 104px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid var(--blue-blue-shade-1, #284ab3);
+}
